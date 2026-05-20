@@ -1,0 +1,29 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: MSFProyectoFinal
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Vania
+    family-names: Rivera
+    email: l22211720@tectijuana.edu.mx
+  - given-names: Adriana
+    family-names: Bañuelos
+    email: l23210694@tectijuana.edu.mx
+identifiers:
+  - type: url
+    value: 'https://github.com/VaniDani/MSFProyectoFinal'
+repository-code: 'https://github.com/VaniDani/MSFProyectoFinal'
+keywords:
+  - Sistema Óptico
+  - Circuito de segundo órden
+  - Analogía eléctrica
+  - Astigmatismo
+  - Modelo matemático
+license: BSD-2-Clause
+version: '1.0'
+date-released: '2026-05-19'
