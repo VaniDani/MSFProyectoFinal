@@ -20,3 +20,5 @@ Modelar el sistema ocular mediante una analogía eléctrica con un circuito RLC 
 Simular la entrada de luz al ojo como una señal sinusoidal y analizar cómo se transforma en información visual.
 Relacionar parámetros eléctricos con funciones fisiológicas: impedancia, inductancia, capacitancia y resistencia, para comprender su papel en la formación de la imagen.
 Estudiar el efecto del astigmatismo en la dinámica del sistema ocular, identificando los cambios en la impedancia y la inductancia.
+
+Palabras clave: Sistema óptico, circuito de segundo orden, análogía eléctrica, astigmatismo, modelo matemático.
