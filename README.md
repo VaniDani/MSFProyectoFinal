@@ -41,7 +41,7 @@ Palabras clave: Sistema óptico, circuito de segundo orden, análogía eléctric
     <td align="center" width="50%" valign="top">
       <img width="100%" alt="Diagrama fisiológico" src="https://github.com/user-attachments/assets/8c6cfc50-83ba-4cdd-adae-6a4d0244c159" />
     </td>
-    <td align="center" width="50%" valign="top">
+    <td align="center" width="50%" valign="center">
       <img width="100%" alt="Circuito análogo RLC" src="https://github.com/user-attachments/assets/d9b52962-9ad6-41a3-aed7-3a82524f07d3" />
     </td>
   </tr>
