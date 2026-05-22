@@ -1,0 +1,159 @@
+%% Produced by Scientific WorkPlace
+%% Version 2021070200
+%% Created Wed Mar 01 2017 11:41:53 GMT-0700 (MST)
+%% Last revised Fri May 22 2026 10:12:57 GMT-0700 (Pacific Daylight Time (Mexico))
+%% preamble
+%% 010
+%% 010
+
+
+\documentclass{article}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{amssymb,amsmath,mathtools,xcolor,graphicx,xspace,colortbl,ragged2e,rotating}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+
+\setcounter{MaxMatrixCols}{10}
+%TCIDATA{OutputFilter=LATEX.DLL}
+%TCIDATA{Version=5.50.0.2953}
+%TCIDATA{<META NAME="SaveForMode" CONTENT="1">}
+%TCIDATA{BibliographyScheme=Manual}
+%TCIDATA{LastRevised=Friday, May 22, 2026 12:27:12}
+%TCIDATA{<META NAME="GraphicsSave" CONTENT="32">}
+
+\graphicspath{{../graphics/}{../tcache/}{../gcache/}}
+\DeclareGraphicsExtensions{.pdf,.eps,.ps,.png,.jpg,.jpeg}
+\newtheorem {theorem}{Theorem}
+\newtheorem{acknowledgment}[theorem]{Acknowledgment}
+\newtheorem{algorithm}[theorem]{Algorithm}
+\newtheorem{assertion}[theorem]{Assertion}
+\newtheorem{assumption}[theorem]{Assumption}
+\newtheorem{axiom}[theorem]{Axiom}
+\newtheorem{case}[theorem]{Case}
+\newtheorem{claim}[theorem]{Claim}
+\newtheorem{conclusion}[theorem]{Conclusion}
+\newtheorem{condition}[theorem]{Condition}
+\newtheorem{conjecture}[theorem]{Conjecture}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{criterion}[theorem]{Criterion}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{example}[theorem]{Example}
+\newtheorem{exercise}[theorem]{Exercise}
+\newtheorem{hypothesis}[theorem]{Hypothesis}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{notation}[theorem]{Notation}
+\newtheorem{note}[theorem]{Note}
+\newtheorem{problem}[theorem]{Problem}
+\newtheorem{property}[theorem]{Property}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{question}[theorem]{Question}
+\newtheorem{remark}[theorem]{Remark}
+\newtheorem{summary}[theorem]{Summary}
+\newenvironment {proof}[1][Proof]{\noindent \textbf {#1.} }{\ \rule {0.5em}{0.5em}}
+\input{tcilatex}
+
+\begin{document}
+
+
+Ecuaciones integro-diferenciales
+
+$P_{a}(t) =ZF_{a}(t) +L\frac{dF_{a}(t)}{dt} +\frac{1}{C}\left [F_{a}(t)
+-F_{r}(t)\right ]$
+
+$P_{p}(t) =RF_{r}(t)$
+
+$\frac{1}{C}\left [F_{a}(t) -F_{r}(t)\right ] =RF_{r}(t)$
+
+Transformada de Laplace
+
+$P_{a}(s) =ZF_{a}(s) +LsF_{a}(s) +\frac{F_{a}(s) -F_{r}(s)}{Cs}$
+
+$P_{p}(s) =RF_{r}(s)$
+
+$\frac{F_{a}(s) -F_{r}(s)}{Cs} =RF_{r}(s)$
+
+Procedimiento algebraico
+
+$\frac{F_{a}(s)}{Cs} =F_{r}(s)\left (R +\frac{1}{Cs}\right )$
+
+$F_{a}(s) =F_{r}(s)Cs(\binom{RCs +1}{Cs})$
+
+$F_{a}(s) =F_{r}(s)(RCs +1)$
+
+$P_{a}(s) =F_{a}(s)(Z +Ls +\frac{1}{Cs}) -F_{r}(s)\left (\frac{1}{Cs}\right )
+$
+
+$P_{a}(s) =F_{r}(s)\left [(RCs +1)(Z +Ls +\frac{1}{Cs}) -\frac{1}{Cs}\right ]
+$
+
+$P_{a}(s) =F_{r}(s)\left [\frac{ZRC^{2}s^{2} +ZCs +RLC^{2}s^{3} +LCs^{2}
++RCs +1 -1_{}}{Cs}\right ]$
+
+$P_{a}(s) =F_{r}(s)\left [\frac{Cs(ZRCs +Z +RLCs^{2} +Ls +R)_{}}{Cs}\right ]$
+
+$P_{a}(s) =F_{r}(s)(ZRCs +Z +RLCs^{2} +Ls +R)$
+
+$P_{a}(s) =F_{r}(s)(RLCs^{2} +s(L +ZRC) +Z +R)_{}$
+
+Funci{\'o}n de transferencia
+
+$\frac{P_{p}(s)}{P_{a}(s)} =\frac{F_{r}(s)(R)}{F_{r}(s)(RLCs^{2} +s(L +ZRC)
++Z +R)_{}}$
+
+$\frac{P_{p}(s)}{P_{a}(s)} =\frac{R}{(RLCs^{2} +s(L +ZRC) +Z +R)_{}}$
+
+Control
+
+$\lambda _{1} =\frac{ -\left (0.2 +1E3 \ast 2E3 \ast 10E -6\right ) +\sqrt{%
+(0.2 +1E3 \ast 2E3 \ast 10E -6)^{2} -4\left (2E3 \ast 0.2 \ast 10E -6\right
+)\left (1E3 +2E3\right )}}{2\left (2E3 \ast 0.2 \ast 10E -6\right )} =
+-153.16$
+
+$\lambda _{2} =\frac{ -\left (0.2 +1E3 \ast 2E3 \ast 10E -6\right ) -\sqrt{%
+(0.2 +1E3 \ast 2E3 \ast 10E -6)^{2} -4\left (2E3 \ast 0.2 \ast 10E -6\right
+)\left (1E3 +2E3\right )}}{2\left (2E3 \ast 0.2 \ast 10E -6\right )} =
+-4896.84$
+
+Caso
+
+$\lambda _{1} =\frac{ -\left (0.3 +3E3 \ast 2E3 \ast 10E -6\right ) +\sqrt{%
+(0.3 +3E3 \ast 2E3 \ast 10E -6)^{2} -4\left (2E3 \ast 0.3 \ast 10E -6\right
+)\left (3E3 +2E3\right )}}{2\left (2E3 \ast 0.2 \ast 10E -6\right )} =
+-83.6144$
+
+$\lambda _{2}=\frac{-\left( 0.3+1E3\ast 2E3\ast 10E-6\right) -\sqrt{%
+(0.2+1E3\ast 2E3\ast 10E-6)^{2}-4\left( 2E3\ast 0.2\ast 10E-6\right) \left(
+1E3+2E3\right) }}{2\left( 2E3\ast 0.2\ast 10E-6\right) }=-9966.3856$
+
+Error en estado estacionario:
+
+$E(s)=\lim \left[ S\ast \frac{1}{S}(1-\frac{R}{(RCL)S^{2}+(ZR_{2}C+L)S+Z+R})%
+\right] $
+
+\ \ \ \ \ \ \ \ \ s$\rightarrow o$
+
+$E(s)=1-$ $\frac{R}{Z+R}$
+
+$E(s)=\frac{Z+R-R}{Z+R}$
+
+$E(s)=\frac{Z}{Z+R}$
+
+\bigskip
+
+Control.
+
+$Z=1k\Omega $
+
+$R=2k\Omega $
+
+$E(s)_{control}$=$\frac{1k\Omega }{1k\Omega +2k\Omega }=0.33$
+
+Caso.
+
+$Z=3k\Omega $
+
+$R=2k\Omega $
+
+$E(s)_{caso}=\frac{3k\Omega }{3k\Omega +2k\Omega }=0.6$
+
+\end{document}
