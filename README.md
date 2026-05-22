@@ -36,10 +36,16 @@ Palabras clave: Sistema óptico, circuito de segundo orden, análogía eléctric
 
 ## Descripción detallada del sistema
 
-<p align="center">
-  <img width="48%" alt="Diagrama fisiológico" src="https://github.com/user-attachments/assets/8c6cfc50-83ba-4cdd-adae-6a4d0244c159" />
-  <img width="48%" alt="Captura de pantalla 2026-05-22 163000" src="https://github.com/user-attachments/assets/d9b52962-9ad6-41a3-aed7-3a82524f07d3" />
-</p>
+<table align="center">
+  <tr>
+    <td align="center" width="50%" valign="top">
+      <img width="100%" alt="Diagrama fisiológico" src="https://github.com/user-attachments/assets/8c6cfc50-83ba-4cdd-adae-6a4d0244c159" />
+    </td>
+    <td align="center" width="50%" valign="top">
+      <img width="100%" alt="Circuito análogo RLC" src="https://github.com/user-attachments/assets/d9b52962-9ad6-41a3-aed7-3a82524f07d3" />
+    </td>
+  </tr>
+</table>
 
 Se estudió el sistema óptico, enfocándose en el flujo del humor acuoso y la presión intraocular. Para analizar su dinámica se utilizó un modelo eléctrico mediante un circuito RLC de dos mallas, donde cada parámetro representa una característica fisiológica del ojo.
 La entrada sinusoidal simula la luz que ingresa al ojo.
