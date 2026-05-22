@@ -143,7 +143,17 @@ $$
 \frac{1}{C}[F_a(t)-F_r(t)]=RF_r(t)
 $$  
 ## Función de transferencia
+$$
+\frac{P_p(s)}{P_a(s)}=
+\frac{F_r(s)(R)}
+{F_r(s)(RLCs^2+s(L+ZRC)+Z+R)}
+$$
 
+$$
+\frac{P_p(s)}{P_a(s)}=
+\frac{R}
+{(RLCs^2+s(L+ZRC)+Z+R)}
+$$
 ## Lista de archivos incluidos en el repositorio
 
 1. Cuaderno computacional de MATLAB \[.mlx].
