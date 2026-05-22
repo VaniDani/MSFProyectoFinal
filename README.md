@@ -40,6 +40,8 @@ Palabras clave: Sistema óptico, circuito de segundo orden, análogía eléctric
   <img width="720" height="504" alt="Diagrama fisiológico" src="https://github.com/user-attachments/assets/8c6cfc50-83ba-4cdd-adae-6a4d0244c159" />
 </p>
 
+<img width="913" height="481" alt="Captura de pantalla 2026-05-22 163000" src="https://github.com/user-attachments/assets/d9b52962-9ad6-41a3-aed7-3a82524f07d3" />
+
 Se estudió el sistema óptico, enfocándose en el flujo del humor acuoso y la presión intraocular. Para analizar su dinámica se utilizó un modelo eléctrico mediante un circuito RLC de dos mallas, donde cada parámetro representa una característica fisiológica del ojo.
 La entrada sinusoidal simula la luz que ingresa al ojo.
 La corriente representa el flujo de información visual.
