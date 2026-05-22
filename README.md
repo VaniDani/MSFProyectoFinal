@@ -55,10 +55,18 @@ El almacenamiento y drenaje de la presión intraocular.
 Palabras clave: Sistema óptico, circuito de segundo orden, análogía eléctrica, astigmatismo, modelo matemático.
 
 ## Modelo de ecuaciones integrodiferenciales
-  
-  P_{a}(t)=ZF_{a}(t)+L((dF_{a}(t))/(dt))+(1/C)[F_{a}(t)-F_{r}(t)]
-        P_{p}(t)=RF_{r}(t)
-        (1/C)[F_{a}(t)-F_{r}(t)]=RF_{r}(t)
+$$
+P_a(t)=ZF_a(t)+L\frac{dF_a(t)}{dt}+\frac{1}{C}[F_a(t)-F_r(t)]
+$$
+
+$$
+P_p(t)=RF_r(t)
+$$
+
+$$
+\frac{1}{C}[F_a(t)-F_r(t)]=RF_r(t)
+$$  
+
 
 ## Lista de archivos incluidos en el repositorio
 
