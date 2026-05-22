@@ -52,6 +52,14 @@ El circuito de dos mallas representa:
 La circulación del humor acuoso.
 El almacenamiento y drenaje de la presión intraocular.
 
+
+Palabras clave: Sistema óptico, circuito de segundo orden, análogía eléctrica, astigmatismo, modelo matemático.
+
+## Unidades fisiológicas del sistema óptico y sus valores en control y caso.
+
+La enfermedad seleccionada fue el astigmatismo. Esta alteración visual se produce debido a una curvatura irregular de la córnea, lo que genera una propagación desigual de la luz y modifica la dinámica del sistema óptico. Los principales cambios ocurren en la impedancia Z y ligeramente en la inductancia L, debido a la irregularidad geométrica de la córnea y la respuesta dinámica menos uniforme del sistema.
+
+
 <div align="center">
 
 <h3>VALORES DEL CASO CONTROL</h3>
@@ -127,8 +135,6 @@ El almacenamiento y drenaje de la presión intraocular.
 </table>
 
 </div>
-
-Palabras clave: Sistema óptico, circuito de segundo orden, análogía eléctrica, astigmatismo, modelo matemático.
 
 ## Modelo de ecuaciones integro-diferenciales
 $$
