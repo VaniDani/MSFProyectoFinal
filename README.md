@@ -52,6 +52,86 @@ El circuito de dos mallas representa:
 La circulación del humor acuoso.
 El almacenamiento y drenaje de la presión intraocular.
 
+<table align="center">
+  <tr>
+    <td align="center" valign="top">
+      <h3>VALORES DEL CASO CONTROL</h3>
+
+<table>
+  <tr>
+    <th>Parámetro</th>
+    <th>Variable fisiológica</th>
+    <th>Valor</th>
+    <th>Unidad fisiológica</th>
+  </tr>
+  <tr>
+    <td><b>Z</b></td>
+    <td>Distorsión geométrica total</td>
+    <td><b>1.0 kΩ</b></td>
+    <td>Dioptrías (D)</td>
+  </tr>
+  <tr>
+    <td><b>L</b></td>
+    <td>Retardo de propagación visual</td>
+    <td><b>0.20 H</b></td>
+    <td>ms</td>
+  </tr>
+  <tr>
+    <td><b>C</b></td>
+    <td>Adaptación/almacenamiento óptico</td>
+    <td><b>10 µF</b></td>
+    <td>Dioptrías (D)</td>
+  </tr>
+  <tr>
+    <td><b>R</b></td>
+    <td>Distorsión/oposición al paso de la luz</td>
+    <td><b>2.0 kΩ</b></td>
+    <td>coeficiente de atenuación (mm<sup>-1</sup>)</td>
+  </tr>
+</table>
+
+</td>
+
+<td align="center" valign="top">
+  <h3>VALORES DEL CASO CON ASTIGMATISMO</h3>
+
+<table>
+  <tr>
+    <th>Parámetro</th>
+    <th>Variable fisiológica</th>
+    <th>Valor</th>
+    <th>Unidad fisiológica</th>
+  </tr>
+  <tr>
+    <td><b>Z'</b></td>
+    <td>Distorsión geométrica total</td>
+    <td><b>3.0 kΩ</b></td>
+    <td>Dioptrías (D)</td>
+  </tr>
+  <tr>
+    <td><b>L'</b></td>
+    <td>Retardo de propagación visual</td>
+    <td><b>0.30 H</b></td>
+    <td>ms</td>
+  </tr>
+  <tr>
+    <td><b>C'</b></td>
+    <td>Adaptación/almacenamiento óptico</td>
+    <td><b>10 µF</b></td>
+    <td>Dioptrías (D)</td>
+  </tr>
+  <tr>
+    <td><b>R'</b></td>
+    <td>Distorsión/oposición al paso de la luz</td>
+    <td><b>2.0 kΩ</b></td>
+    <td>coeficiente de atenuación (mm<sup>-1</sup>)</td>
+  </tr>
+</table>
+
+</td>
+  </tr>
+</table>
+
 Palabras clave: Sistema óptico, circuito de segundo orden, análogía eléctrica, astigmatismo, modelo matemático.
 
 ## Modelo de ecuaciones integro-diferenciales
