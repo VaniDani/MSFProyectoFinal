@@ -169,7 +169,6 @@ $$
 $$
 
 ## Estabilidad del sistema 
-##control
 $$
 \lambda_1 =
 \frac{
