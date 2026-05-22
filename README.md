@@ -154,7 +154,7 @@ $$
 
 $$
 \frac{1}{C}[F_a(t)-F_r(t)]=RF_r(t)
-$$  
+$$
 ## Función de transferencia
 $$
 \frac{P_p(s)}{P_a(s)}=
