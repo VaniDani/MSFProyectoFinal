@@ -167,6 +167,32 @@ $$
 \frac{R}
 {(RLCs^2+s(L+ZRC)+Z+R)}
 $$
+
+## Estabilidad del sistema 
+##control
+$$
+\lambda_1 =
+\frac{
+-(0.2 + 1E3 \cdot 2E3 \cdot 10E^{-6})
++\sqrt{(0.2 + 1E3 \cdot 2E3 \cdot 10E^{-6})^2
+-4(2E3 \cdot 0.2 \cdot 10E^{-6})(1E3+2E3)}
+}{
+2(2E3 \cdot 0.2 \cdot 10E^{-6})
+}
+= -153.16
+$$
+
+$$
+\lambda_2 =
+\frac{
+-(0.2 + 1E3 \cdot 2E3 \cdot 10E^{-6})
+-\sqrt{(0.2 + 1E3 \cdot 2E3 \cdot 10E^{-6})^2
+-4(2E3 \cdot 0.2 \cdot 10E^{-6})(1E3+2E3)}
+}{
+2(2E3 \cdot 0.2 \cdot 10E^{-6})
+}
+= -4896.84
+$$
 ## Lista de archivos incluidos en el repositorio
 
 1. Cuaderno computacional de MATLAB \[.mlx].
