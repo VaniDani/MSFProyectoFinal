@@ -52,10 +52,9 @@ El circuito de dos mallas representa:
 La circulación del humor acuoso.
 El almacenamiento y drenaje de la presión intraocular.
 
-<table align="center">
-  <tr>
-    <td align="center" valign="top">
-      <h3>VALORES DEL CASO CONTROL</h3>
+<div align="center">
+
+<h3>VALORES DEL CASO CONTROL</h3>
 
 <table>
   <tr>
@@ -90,10 +89,9 @@ El almacenamiento y drenaje de la presión intraocular.
   </tr>
 </table>
 
-</td>
+<br>
 
-<td align="center" valign="top">
-  <h3>VALORES DEL CASO CON ASTIGMATISMO</h3>
+<h3>VALORES DEL CASO CON ASTIGMATISMO</h3>
 
 <table>
   <tr>
@@ -128,9 +126,7 @@ El almacenamiento y drenaje de la presión intraocular.
   </tr>
 </table>
 
-</td>
-  </tr>
-</table>
+</div>
 
 Palabras clave: Sistema óptico, circuito de segundo orden, análogía eléctrica, astigmatismo, modelo matemático.
 
