@@ -1,3 +1,5 @@
+[![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=VaniDani/MSFProyectoFinal)
+
 # MSFProyectoFinal
 Proyecto Final: Sistema óptico
 <img width="1448" height="1086" alt="ChatGPT Image May 19, 2026, 06_10_45 PM" src="https://github.com/user-attachments/assets/779a3d30-b6dd-4774-8c40-efd1bdab4a0a" />
