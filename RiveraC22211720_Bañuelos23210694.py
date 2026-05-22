@@ -9,6 +9,10 @@ Nombre del alumno: Vania Daniela Rivera Durán
 Número de control: C22211720
 Correo institucional: l22211720@tectijuana.edu.mx
 
+Nombre del alumno: Adriana Estefania Bañuelos Ocampo
+Número de control: 23210694
+Correo institucional: l23210694@tectijuana.edu.mx
+
 Asignatura: Modelado de Sistemas Fisiológicos
 Docente: Dr. Paul Antonio Valle Trujillo; paul.valle@tectijuana.edu.mx
 """
