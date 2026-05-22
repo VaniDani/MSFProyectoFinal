@@ -187,8 +187,9 @@ $$
 
 \[4] T. Kind, T. J. Faes, J. W. Lankhaar, A. Vonk-Noordegraaf \& M. Verhaegen, "Estimation of three-and four-element Windkessel parameters using subspace model identification", IEEE Transactions on Biomedical Engineering, vol. 57, issue 7, pp. 1531-1538, Jul 2010. https://doi.org/10.1109/TBME.2010.2041351
 
-\[5] Oftalvist, "Dioptrías: qué son, tipos y cómo se miden", Oftalvist Blog, Mar. 11, 2021. Disponible en: https://www.oftalvist.es/blog/dioptrias-que-son-tipos-y-como-se-miden
+\[5] American Academy of Ophthalmology, "Optics 101", American Academy of Ophthalmology, Jan. 1, 2014. Disponible en: https://www.aao.org/young-ophthalmologists/yo-info/article/optics-101
 
-\[6] L. Moya, "Descubre cómo funciona la dioptría y su equivalencia", Diaonia Física, s.f. Disponible en: https://fisica.diaonia.com/descubre-como-funciona-la-dioptria-y-su-equivalencia/
+\[6] American Academy of Ophthalmology, "Astigmatism: Causes, Symptoms, Diagnosis, and Treatment", American Academy of Ophthalmology, s.f. Disponible en: https://www.aao.org/eye-health/astigmatism
 
-\[7] L. Segre, "Cuáles son las tablas usadas para un examen de la vista", All About Vision, Mar. 7, 2019. Disponible en: https://www.allaboutvision.com/es/cuidado-de-los-ojos/pruebas-oftalmologicas/examen-vista/
+\[7] National Eye Institute, "Refractive Errors", National Eye Institute, National Institutes of Health, s.f. Disponible en: https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/refractive-errors
+
