@@ -144,6 +144,9 @@ La enfermedad seleccionada fue el astigmatismo. Esta alteración visual se produ
 </div>
 
 ## Modelo de ecuaciones integro-diferenciales
+$$
+P_a(t)=ZF_a(t)+L\frac{dF_a(t)}{dt}+\frac{1}{C}\int [F_a(t)-F_r(t)]
+$$
 
 $$
 P_p(t)=RF_r(t)
@@ -152,12 +155,13 @@ $$
 $$
 \frac{1}{C}\int [F_a(t)-F_r(t)] = RF_r(t)
 $$
+P_p(t)=RF_r(t)
+$$
+
+$$
+\frac{1}{C}\int [F_a(t)-F_r(t)] = RF_r(t)
+$$
 ## Función de transferencia
-$$
-\frac{P_p(s)}{P_a(s)}=
-\frac{F_r(s)(R)}
-{F_r(s)(RLCs^2+s(L+ZRC)+Z+R)}
-$$
 
 $$
 \frac{P_p(s)}{P_a(s)}=
