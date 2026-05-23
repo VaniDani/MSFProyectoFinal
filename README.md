@@ -169,7 +169,7 @@ $$
 $$
 
 ## Estabilidad del sistema (Estable-sobreamortiguada)
-## control
+## Control
 
 $$
 \lambda_1 =
