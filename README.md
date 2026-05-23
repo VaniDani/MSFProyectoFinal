@@ -168,7 +168,9 @@ $$
 {(RLCs^2+s(L+ZRC)+Z+R)}
 $$
 
-## Estabilidad del sistema 
+## Estabilidad del sistema (Estable-sobreamortiguada)
+## control
+
 $$
 \lambda_1 =
 \frac{
@@ -191,6 +193,92 @@ $$
 2(2E3 \cdot 0.2 \cdot 10E^{-6})
 }
 = -4896.84
+$$
+## Caso
+
+$$
+\lambda_1 =
+\frac{
+-(0.3 + 3E3 \cdot 2E3 \cdot 10E^{-6})
++\sqrt{(0.3 + 3E3 \cdot 2E3 \cdot 10E^{-6})^2
+-4(2E3 \cdot 0.3 \cdot 10E^{-6})(3E3+2E3)}
+}{
+2(2E3 \cdot 0.2 \cdot 10E^{-6})
+}
+= -83.6144
+$$
+
+$$
+\lambda_2 =
+\frac{
+-(0.2 + 1E3 \cdot 2E3 \cdot 10E^{-6})
+-\sqrt{(0.2 + 1E3 \cdot 2E3 \cdot 10E^{-6})^2
+-4(2E3 \cdot 0.2 \cdot 10E^{-6})(1E3+2E3)}
+}{
+2(2E3 \cdot 0.2 \cdot 10E^{-6})
+}
+= -9966.3856
+$$
+
+## Error en estado estacionario
+
+$$
+E(s)=\lim_{s\to 0}
+\left[
+S \times \frac{1}{S}
+\left(
+1-
+\frac{R}{(RCL)S^2+(ZR_2C+L)S+Z+R}
+\right)
+\right]
+$$
+
+$$
+E(s)=1-\frac{R}{Z+R}
+$$
+
+$$
+E(s)=\frac{Z+R-R}{Z+R}
+$$
+
+$$
+E(s)=\frac{Z}{Z+R}
+$$
+
+---
+
+## Control
+
+$$
+Z = 1k\Omega
+$$
+
+$$
+R = 2k\Omega
+$$
+
+$$
+E(s)_{control}=
+\frac{1k\Omega}{1k\Omega+2k\Omega}
+=0.33
+$$
+
+---
+
+## Caso
+
+$$
+Z = 3k\Omega
+$$
+
+$$
+R = 2k\Omega
+$$
+
+$$
+E(s)_{caso}=
+\frac{3k\Omega}{3k\Omega+2k\Omega}
+=0.6
 $$
 ## Lista de archivos incluidos en el repositorio
 
