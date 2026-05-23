@@ -155,12 +155,7 @@ $$
 $$
 \frac{1}{C}\int [F_a(t)-F_r(t)] = RF_r(t)
 $$
-P_p(t)=RF_r(t)
-$$
 
-$$
-\frac{1}{C}\int [F_a(t)-F_r(t)] = RF_r(t)
-$$
 ## Función de transferencia
 
 $$
